@@ -1,0 +1,241 @@
+
+body {
+  background-color: #eceef1;
+}
+
+body > section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#image {
+  width: 118px;
+  height: 35px;
+  background-position: 0 0;
+  background-image: url("../images/index.png");
+  border: none;
+}
+
+#sign-in-container {
+  align-self: flex-end;
+  font-size: 12px;
+  line-height: 1.5;
+  height: 40px;
+  padding: 10px 30px 10px 30px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+#sign-in-container > button {
+  text-align: center;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+#sign-in-container > button {
+  background-color: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  padding: 0 20px;
+  margin-left: 10px;
+  color: white;
+  font-size: 1.125em;
+  height: 34px;
+  box-sizing: border-box;
+}
+
+#image {
+  margin: 20px auto 20px auto;
+}
+
+header > ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 318px;
+  margin-bottom: 15px;
+}
+
+header > ul > li  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header > ul > li > img{
+  height: 24px;
+  width: 24px;
+  float: left;
+  margin-right: 4px;
+}
+
+#mint > #img-text {
+  width: 37px;
+  height: 14px;
+}
+
+#quickbooks > #img-text {
+  width: 98px;
+  height: 22px;
+}
+
+#turbotax > #img-text {
+  width: 74px;
+  height: 16px;
+}
+
+#submit {
+  background-color: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  color: white;
+  font-size: 14px;
+  line-height: 1.5;
+  height: 44px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+#sign-up-container {
+  border: 1px solid #c7c7c7;
+  background-color: #fff;
+  font-size: 14px;
+  width: 320px;
+  padding: 30px;
+  box-shadow: none;
+  border-radius: 2px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  height: 34px;
+  border: 1px solid #c1c5c8;
+  padding-right: 6px;
+  padding-left: 8px;
+  font-size: 1.2em;
+  border-radius: 3px;
+}
+
+#login-text {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#login-text > h1 {
+  color: #393a3d;
+  line-height: 1.1;
+  font-size: 24px;
+}
+
+#login-text > p {
+  color: #393A3D;
+  line-height: 1.2;
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+#form-labels {
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+  padding-bottom: 6px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset > label {
+  padding-bottom: 6px;
+  line-height: 25px;
+}
+
+#phone-div {
+  height: 115px;
+}
+
+#phone-div > input {
+  width: 320px;
+}
+
+#phone-div > label {
+  padding-bottom: 16px;
+  line-height: 25px;
+  font-size: 14px;
+}
+
+#phone-div > p {
+  height: 20px;
+  padding: 5px 0 0 5px;
+  font-size: 10px;
+  color: #444;
+}
+
+#email {
+  margin-bottom: 34px;
+}
+
+#password-text {
+  min-height: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 1.2em;
+  font-size: 12px;
+}
+
+section > p {
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  color: #757575;
+  padding-top: 10px;
+}
+
+#last-section {
+  margin: 32px -30px -30px -30px;
+  padding: 16px;
+  background-color: #eceef1;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+}
+
+#last-section > span{
+  font-size: 12px;
+  color: #8d9096;
+  padding: 13px;
+}
+
+footer {
+  width: 90%;
+  color: #505050;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer > ul > li {
+  padding-left: 10px;
+}
+
